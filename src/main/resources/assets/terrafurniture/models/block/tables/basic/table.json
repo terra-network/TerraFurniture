@@ -1,0 +1,514 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "minecraft:block/oak_planks",
+    "1": "minecraft:block/oak_log",
+    "particle": "minecraft:block/oak_planks"
+  },
+  "elements": [
+    {
+      "name": "Top",
+      "from": [
+        0,
+        14,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          14,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            5,
+            16,
+            7
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "Leg",
+      "from": [
+        13,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        14,
+        3
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          13,
+          0,
+          1
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            2,
+            6,
+            16
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            12,
+            2,
+            14,
+            16
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            10,
+            2,
+            12,
+            16
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            8,
+            2,
+            10,
+            16
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            0,
+            2,
+            2,
+            3
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            15,
+            2,
+            16
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Leg",
+      "from": [
+        13,
+        0,
+        13
+      ],
+      "to": [
+        15,
+        14,
+        15
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          13,
+          0,
+          13
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            2,
+            6,
+            16
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            12,
+            2,
+            14,
+            16
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            10,
+            2,
+            12,
+            16
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            8,
+            2,
+            10,
+            16
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            0,
+            2,
+            2,
+            3
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            15,
+            2,
+            16
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Leg",
+      "from": [
+        1,
+        0,
+        13
+      ],
+      "to": [
+        3,
+        14,
+        15
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          1,
+          0,
+          13
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            2,
+            6,
+            16
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            12,
+            2,
+            14,
+            16
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            10,
+            2,
+            12,
+            16
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            8,
+            2,
+            10,
+            16
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            0,
+            2,
+            2,
+            3
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            15,
+            2,
+            16
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Leg",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        3,
+        14,
+        3
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          1,
+          0,
+          1
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            2,
+            6,
+            16
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            12,
+            2,
+            14,
+            16
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            10,
+            2,
+            12,
+            16
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            8,
+            2,
+            10,
+            16
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            0,
+            2,
+            2,
+            3
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            15,
+            2,
+            16
+          ],
+          "texture": "#1"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        45,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -1
+      ],
+      "scale": [
+        0.31,
+        0.31,
+        0.31
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        45,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -1
+      ],
+      "scale": [
+        0.31,
+        0.31,
+        0.31
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "gui": {
+      "rotation": [
+        20,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        -0.5,
+        0
+      ],
+      "scale": [
+        0.59,
+        0.59,
+        0.59
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        12,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "VoxelShape",
+      "origin": [
+        1,
+        0,
+        1
+      ],
+      "color": 0,
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

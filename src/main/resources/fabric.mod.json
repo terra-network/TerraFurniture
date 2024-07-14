@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "terrafurniture",
+  "version": "${version}",
+  "name": "TerraFurniture",
+  "description": "Furniture mod",
+  "authors": [
+    "braden"
+  ],
+  "contact": {
+    "repo": "https://github.com/itsbradn/TerraFurniture"
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "gg.terramc.terrafurniture.client.TerraFurnitureClient"
+      }
+    ],
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "gg.terramc.terrafurniture.TerraFurniture"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

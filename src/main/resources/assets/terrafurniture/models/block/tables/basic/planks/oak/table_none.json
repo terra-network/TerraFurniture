@@ -1,0 +1,8 @@
+{
+  "parent": "terrafurniture:block/tables/basic/table_none",
+  "textures": {
+    "0": "minecraft:block/oak_planks",
+    "1": "minecraft:block/stripped_oak_log",
+    "particle": "minecraft:block/oak_planks"
+  }
+}
