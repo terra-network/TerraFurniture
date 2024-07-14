@@ -4,6 +4,7 @@ import gg.terramc.terrafurniture.TerraFurniture
 import gg.terramc.terrafurniture.block.custom.PostTableBlock
 import gg.terramc.terrafurniture.block.custom.TableBlock
 import gg.terramc.terrafurniture.block.groups.LogBasicTable
+import gg.terramc.terrafurniture.block.groups.PlanksBasicTable
 import gg.terramc.terrafurniture.item.ModItems
 import gg.terramc.terrafurniture.util.ModItemGroups
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
@@ -21,22 +22,7 @@ class ModBlocks {
     companion object {
 
         val LOG_TABLES = LogBasicTable
-
-        val OAK_PLANKS_TABLE = registerBlock(
-            "oak_planks_table", TableBlock(
-                FabricBlockSettings.copyOf(
-                    Blocks.OAK_PLANKS
-                )
-            ), ModItemGroups.TERRAFURNITURE
-        )
-
-        val SPRUCE_PLANKS_TABLE = registerBlock(
-            "spruce_planks_table", TableBlock(
-                FabricBlockSettings.copyOf(
-                    Blocks.SPRUCE_PLANKS
-                )
-            ), ModItemGroups.TERRAFURNITURE
-        )
+        val PLANKS_TABLE = PlanksBasicTable
 
         val STRIPPED_OAK_LOG_TABLE = registerBlock(
             "stripped_oak_log_table", TableBlock(

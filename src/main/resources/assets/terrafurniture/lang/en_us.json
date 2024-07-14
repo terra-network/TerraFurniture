@@ -1,6 +1,12 @@
 {
   "block.terrafurniture.oak_planks_table": "Oak Plank Table",
   "block.terrafurniture.spruce_planks_table": "Spruce Plank Table",
+  "block.terrafurniture.mangrove_planks_table": "Mangrove Plank Table",
+  "block.terrafurniture.jungle_planks_table": "Jungle Plank Table",
+  "block.terrafurniture.dark_oak_planks_table": "Dark Oak Plank Table",
+  "block.terrafurniture.cherry_planks_table": "Cherry Plank Table",
+  "block.terrafurniture.birch_planks_table": "Birch Plank Table",
+  "block.terrafurniture.acacia_planks_table": "Acacia Plank Table",
   "block.terrafurniture.stripped_oak_log_table": "Stripped Oak Log Table",
   "block.terrafurniture.stripped_spruce_log_table": "Stripped Spruce Log Table",
   "terrafurniture.terrafurniture_group": "TerraFurniture",
