@@ -2,9 +2,9 @@ package gg.terramc.terrafurniture.block
 
 import gg.terramc.terrafurniture.TerraFurniture
 import gg.terramc.terrafurniture.block.custom.PostTableBlock
-import gg.terramc.terrafurniture.block.custom.TableBlock
 import gg.terramc.terrafurniture.block.groups.LogBasicTable
 import gg.terramc.terrafurniture.block.groups.PlanksBasicTable
+import gg.terramc.terrafurniture.block.groups.StrippedLogBasicTable
 import gg.terramc.terrafurniture.item.ModItems
 import gg.terramc.terrafurniture.util.ModItemGroups
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
@@ -23,22 +23,7 @@ class ModBlocks {
 
         val LOG_TABLES = LogBasicTable
         val PLANKS_TABLE = PlanksBasicTable
-
-        val STRIPPED_OAK_LOG_TABLE = registerBlock(
-            "stripped_oak_log_table", TableBlock(
-                FabricBlockSettings.copyOf(
-                    Blocks.OAK_PLANKS
-                )
-            ), ModItemGroups.TERRAFURNITURE
-        )
-
-        val STRIPPED_SPRUCE_LOG_TABLE = registerBlock(
-            "stripped_spruce_log_table", TableBlock(
-                FabricBlockSettings.copyOf(
-                    Blocks.SPRUCE_PLANKS
-                )
-            ), ModItemGroups.TERRAFURNITURE
-        )
+        val STRIPPED_LOG_TABLE = StrippedLogBasicTable
 
         val OAK_LOG_POST_TABLE = registerBlock(
             "oak_log_post_table", PostTableBlock(
