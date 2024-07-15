@@ -1,0 +1,8 @@
+{
+  "parent": "terrafurniture:block/tables/basic/table_north_west",
+  "textures": {
+    "0": "minecraft:block/bamboo_block",
+    "1": "minecraft:block/bamboo_block",
+    "particle": "minecraft:block/bamboo_block"
+  }
+}

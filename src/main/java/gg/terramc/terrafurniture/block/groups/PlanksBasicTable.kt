@@ -72,5 +72,29 @@ class PlanksBasicTable {
                 )
             ), ModItemGroups.TERRAFURNITURE
         )
+
+        val BAMBOO_PLANKS_TABLE = registerBlock(
+            "bamboo_planks_table", TableBlock(
+                FabricBlockSettings.copyOf(
+                    Blocks.BAMBOO_PLANKS
+                )
+            ), ModItemGroups.TERRAFURNITURE
+        )
+
+        val WARPED_PLANKS_TABLE = registerBlock(
+            "warped_planks_table", TableBlock(
+                FabricBlockSettings.copyOf(
+                    Blocks.WARPED_PLANKS
+                )
+            ), ModItemGroups.TERRAFURNITURE
+        )
+
+        val CRIMSON_PLANKS_TABLE = registerBlock(
+            "crimson_planks_table", TableBlock(
+                FabricBlockSettings.copyOf(
+                    Blocks.CRIMSON_PLANKS
+                )
+            ), ModItemGroups.TERRAFURNITURE
+        )
     }
 }

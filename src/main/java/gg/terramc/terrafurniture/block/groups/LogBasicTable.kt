@@ -72,5 +72,29 @@ class LogBasicTable {
                 )
             ), ModItemGroups.TERRAFURNITURE
         )
+
+        val BAMBOO_BLOCK_TABLE = registerBlock(
+            "bamboo_block_table", TableBlock(
+                FabricBlockSettings.copyOf(
+                    Blocks.BAMBOO_PLANKS
+                )
+            ), ModItemGroups.TERRAFURNITURE
+        )
+
+        val WARPED_STEM_TABLE = registerBlock(
+            "warped_stem_table", TableBlock(
+                FabricBlockSettings.copyOf(
+                    Blocks.WARPED_PLANKS
+                )
+            ), ModItemGroups.TERRAFURNITURE
+        )
+
+        val CRIMSON_STEM_TABLE = registerBlock(
+            "crimson_stem_table", TableBlock(
+                FabricBlockSettings.copyOf(
+                    Blocks.CRIMSON_PLANKS
+                )
+            ), ModItemGroups.TERRAFURNITURE
+        )
     }
 }

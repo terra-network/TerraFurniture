@@ -72,5 +72,29 @@ class StrippedLogBasicTable {
                 )
             ), ModItemGroups.TERRAFURNITURE
         )
+
+        val STRIPPED_WARPED_STEM_TABLE = registerBlock(
+            "stripped_warped_stem_table", TableBlock(
+                FabricBlockSettings.copyOf(
+                    Blocks.WARPED_PLANKS
+                )
+            ), ModItemGroups.TERRAFURNITURE
+        )
+
+        val STRIPPED_CRIMSON_STEM_TABLE = registerBlock(
+            "stripped_crimson_stem_table", TableBlock(
+                FabricBlockSettings.copyOf(
+                    Blocks.CRIMSON_PLANKS
+                )
+            ), ModItemGroups.TERRAFURNITURE
+        )
+
+        val STRIPPED_BAMBOO_BLCOK_TABLE = registerBlock(
+            "stripped_bamboo_block_table", TableBlock(
+                FabricBlockSettings.copyOf(
+                    Blocks.BAMBOO_PLANKS
+                )
+            ), ModItemGroups.TERRAFURNITURE
+        )
     }
 }
