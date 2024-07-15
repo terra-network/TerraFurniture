@@ -1,8 +1,6 @@
 package gg.terramc.terrafurniture.block.compat
 
-import gg.terramc.terrafurniture.block.compat.groups.LogBasicTable
-import gg.terramc.terrafurniture.block.compat.groups.PlanksBasicTable
-import gg.terramc.terrafurniture.block.compat.groups.StrippedLogBasicTable
+import gg.terramc.terrafurniture.block.compat.groups.*
 
 class CompatBlocks {
     companion object {
@@ -10,6 +8,9 @@ class CompatBlocks {
             LogBasicTable.registerRegionsUnexploredBlocks()
             PlanksBasicTable.registerRegionsUnexploredBlocks()
             StrippedLogBasicTable.registerRegionsUnexploredBlocks()
+            LogPostTable.registerRegionsUnexploredBlocks()
+            PlanksPostTable.registerRegionsUnexploredBlocks()
+            StrippedLogPostTable.registerRegionsUnexploredBlocks()
         }
     }
 }

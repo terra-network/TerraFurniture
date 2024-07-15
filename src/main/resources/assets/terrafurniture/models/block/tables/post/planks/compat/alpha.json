@@ -1,0 +1,8 @@
+{
+  "parent": "terrafurniture:block/tables/post/table",
+  "textures": {
+    "0": "regions_unexplored:block/alpha_oak_planks",
+    "1": "regions_unexplored:block/alpha_oak_planks",
+    "particle": "regions_unexplored:block/alpha_oak_planks"
+  }
+}
