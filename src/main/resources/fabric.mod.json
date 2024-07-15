@@ -30,5 +30,8 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
+  },
+  "recommends": {
+    "regions_unexplored": "0.5.5"
   }
 }

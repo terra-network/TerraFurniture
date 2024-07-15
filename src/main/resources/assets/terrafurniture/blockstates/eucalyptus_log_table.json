@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "legs=true,leg_positions=north": {
+      "model": "terrafurniture:block/tables/basic/log/compat/eucalyptus/table_north"
+    },
+    "legs=true,leg_positions=south": {
+      "model": "terrafurniture:block/tables/basic/log/compat/eucalyptus/table_south"
+    },
+    "legs=true,leg_positions=east": {
+      "model": "terrafurniture:block/tables/basic/log/compat/eucalyptus/table_east"
+    },
+    "legs=true,leg_positions=west": {
+      "model": "terrafurniture:block/tables/basic/log/compat/eucalyptus/table_west"
+    },
+    "legs=true,leg_positions=north_east": {
+      "model": "terrafurniture:block/tables/basic/log/compat/eucalyptus/table_north_east"
+    },
+    "legs=true,leg_positions=north_west": {
+      "model": "terrafurniture:block/tables/basic/log/compat/eucalyptus/table_north_west"
+    },
+    "legs=true,leg_positions=south_east": {
+      "model": "terrafurniture:block/tables/basic/log/compat/eucalyptus/table_south_east"
+    },
+    "legs=true,leg_positions=south_west": {
+      "model": "terrafurniture:block/tables/basic/log/compat/eucalyptus/table_south_west"
+    },
+    "legs=true,leg_positions=all": {
+      "model": "terrafurniture:block/tables/basic/log/compat/eucalyptus/table"
+    },
+    "legs=false": {
+      "model": "terrafurniture:block/tables/basic/log/compat/eucalyptus/table_none"
+    },
+    "leg_positions=none,legs=true": {
+      "model": "terrafurniture:block/tables/basic/log/compat/eucalyptus/table_none"
+    }
+  }
+}

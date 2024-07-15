@@ -1,9 +1,11 @@
 package gg.terramc.terrafurniture
 
 import gg.terramc.terrafurniture.block.ModBlocks
+import gg.terramc.terrafurniture.block.compat.CompatBlocks
 import gg.terramc.terrafurniture.item.ModItems
 import gg.terramc.terrafurniture.util.ModItemGroups
 import net.fabricmc.api.ModInitializer
+import net.fabricmc.loader.api.FabricLoader
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
@@ -19,6 +21,10 @@ class TerraFurniture : ModInitializer {
         ModItemGroups
         ModItems
         ModBlocks
+
+        if (FabricLoader.getInstance().isModLoaded("regions_unexplored")) {
+            CompatBlocks.registerRegionsUnexploredBlocks()
+        }
     }
 
 }

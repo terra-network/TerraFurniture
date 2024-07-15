@@ -1,0 +1,8 @@
+{
+  "parent": "terrafurniture:block/tables/basic/table_north",
+  "textures": {
+    "0": "regions_unexplored:block/brimwood_log_magma",
+    "1": "regions_unexplored:block/brimwood_log_magma",
+    "particle": "regions_unexplored:block/brimwood_log_magma"
+  }
+}
