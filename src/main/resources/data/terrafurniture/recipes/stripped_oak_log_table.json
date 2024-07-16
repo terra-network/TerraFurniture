@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "/ /",
+    "/ /"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:stripped_oak_log_table",
+    "count": 1
+  },
+  "group": "stripped_log_table"
+}

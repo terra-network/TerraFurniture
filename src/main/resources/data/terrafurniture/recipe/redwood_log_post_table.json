@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:redwood_log"
+    },
+    "/": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:redwood_log_post_table",
+    "count": 1
+  },
+  "group": "log_post_table"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "/ /",
+    "/ /"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:cobalt_log"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:cobalt_log_table",
+    "count": 1
+  },
+  "group": "log_table"
+}

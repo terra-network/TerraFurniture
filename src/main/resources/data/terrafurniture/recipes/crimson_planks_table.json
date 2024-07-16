@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "/ /",
+    "/ /"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:crimson_planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:crimson_planks_table",
+    "count": 1
+  },
+  "group": "plank_table"
+}

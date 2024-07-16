@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "/ /",
+    "/ /"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:stripped_magnolia_log"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:stripped_magnolia_log_table",
+    "count": 1
+  },
+  "group": "stripped_log_table"
+}

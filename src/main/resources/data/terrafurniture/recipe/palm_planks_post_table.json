@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:palm_planks"
+    },
+    "/": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:palm_planks_post_table",
+    "count": 1
+  },
+  "group": "planks_post_table"
+}

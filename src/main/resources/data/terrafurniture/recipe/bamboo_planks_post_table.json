@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo_planks"
+    },
+    "/": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:bamboo_planks_post_table",
+    "count": 1
+  },
+  "group": "planks_post_table"
+}

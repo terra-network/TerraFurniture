@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_jungle_log"
+    },
+    "/": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:stripped_jungle_log_post_table",
+    "count": 1
+  },
+  "group": "stripped_log_post_table"
+}

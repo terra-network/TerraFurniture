@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:stripped_pink_bioshroom_stem"
+    },
+    "/": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:stripped_pink_bioshroom_stem_post_table",
+    "count": 1
+  },
+  "group": "stripped_log_post_table"
+}
