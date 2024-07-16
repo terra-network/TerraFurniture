@@ -48,6 +48,12 @@ jobs:
           github-tag: v${{ steps.mod_version.outputs.mod_version }}
           github-generate-changelog: true
           github-token: ${{ secrets.PUBLISH_TOKEN }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-id: Mrvv46g6
+          modrinth-featured: true
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          curseforge-id: 1064154
+          changelog-file: changelogs/${{ steps.mod_version.outputs.mod_version  }}.md
           files: build/libs/TerraFurniture-${{ steps.mod_version.outputs.mod_version  }}.jar
           loaders: |
             fabric
