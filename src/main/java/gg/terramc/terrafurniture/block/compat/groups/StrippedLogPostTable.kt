@@ -135,6 +135,34 @@ class StrippedLogPostTable {
                     )
                 ), ModItemGroups.TERRAFURNITURE
             )
+            registerBlock(
+                "stripped_blue_bioshroom_stem_post_table", PostTableBlock(
+                    FabricBlockSettings.copyOf(
+                        Blocks.OAK_PLANKS
+                    )
+                ), ModItemGroups.TERRAFURNITURE
+            )
+            registerBlock(
+                "stripped_green_bioshroom_stem_post_table", PostTableBlock(
+                    FabricBlockSettings.copyOf(
+                        Blocks.OAK_PLANKS
+                    )
+                ), ModItemGroups.TERRAFURNITURE
+            )
+            registerBlock(
+                "stripped_pink_bioshroom_stem_post_table", PostTableBlock(
+                    FabricBlockSettings.copyOf(
+                        Blocks.OAK_PLANKS
+                    )
+                ), ModItemGroups.TERRAFURNITURE
+            )
+            registerBlock(
+                "stripped_yellow_bioshroom_stem_post_table", PostTableBlock(
+                    FabricBlockSettings.copyOf(
+                        Blocks.OAK_PLANKS
+                    )
+                ), ModItemGroups.TERRAFURNITURE
+            )
         }
     }
 }

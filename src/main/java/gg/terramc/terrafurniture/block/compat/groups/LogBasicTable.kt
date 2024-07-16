@@ -156,6 +156,34 @@ class LogBasicTable {
                     )
                 ), ModItemGroups.TERRAFURNITURE
             )
+            registerBlock(
+                "blue_bioshroom_stem_table", TableBlock(
+                    FabricBlockSettings.copyOf(
+                        Blocks.OAK_PLANKS
+                    )
+                ), ModItemGroups.TERRAFURNITURE
+            )
+            registerBlock(
+                "green_bioshroom_stem_table", TableBlock(
+                    FabricBlockSettings.copyOf(
+                        Blocks.OAK_PLANKS
+                    )
+                ), ModItemGroups.TERRAFURNITURE
+            )
+            registerBlock(
+                "pink_bioshroom_stem_table", TableBlock(
+                    FabricBlockSettings.copyOf(
+                        Blocks.OAK_PLANKS
+                    )
+                ), ModItemGroups.TERRAFURNITURE
+            )
+            registerBlock(
+                "yellow_bioshroom_stem_table", TableBlock(
+                    FabricBlockSettings.copyOf(
+                        Blocks.OAK_PLANKS
+                    )
+                ), ModItemGroups.TERRAFURNITURE
+            )
         }
     }
 }
