@@ -29,3 +29,11 @@ jobs:
         with:
           name: Artifacts
           path: build/libs/
+      - name: Get mod version
+        id: mod_version
+        uses: BrycensRanch/read-properties-action@v1
+        with:
+          file: gradle.properties
+          property: mod_version
+          default: 0.0.1-SNAPSHOT
+      - run: echo ${{ steps.mod_version.outputs.mod_version }}
