@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "terrafurniture:block/tables/post/stripped_log/compat/blackwood"
+      "model": "terrafurniture:block/tables/post/stripped_log/blackwood"
     }
   }
 }

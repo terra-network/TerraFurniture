@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "terrafurniture:block/tables/post/log/compat/brimwood_magma"
+      "model": "terrafurniture:block/tables/post/log/brimwood_log_magma"
     }
   }
 }

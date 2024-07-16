@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "terrafurniture:block/tables/post/log/compat/pine"
+      "model": "terrafurniture:block/tables/post/log/pine"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "terrafurniture:block/tables/post/log/compat/magnolia"
+      "model": "terrafurniture:block/tables/post/log/magnolia"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "terrafurniture:block/tables/post/planks/crimson"
+      "model": "terrafurniture:block/tables/post/planks/crimson_stem"
     }
   }
 }

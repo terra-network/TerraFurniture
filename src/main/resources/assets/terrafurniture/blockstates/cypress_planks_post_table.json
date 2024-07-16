@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "terrafurniture:block/tables/post/planks/compat/cypress"
+      "model": "terrafurniture:block/tables/post/planks/cypress"
     }
   }
 }

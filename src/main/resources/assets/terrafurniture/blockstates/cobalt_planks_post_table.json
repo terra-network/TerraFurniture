@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "terrafurniture:block/tables/post/planks/compat/cobalt"
+      "model": "terrafurniture:block/tables/post/planks/cobalt"
     }
   }
 }

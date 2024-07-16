@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "terrafurniture:block/tables/post/log/warped"
+      "model": "terrafurniture:block/tables/post/log/warped_stem"
     }
   }
 }

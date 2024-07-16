@@ -72,7 +72,7 @@ java {
 
 jar {
     from("LICENSE") {
-        rename { "${it}_${project.archivesBaseName}"}
+        rename { "${it}_${project.archivesBaseName}" }
     }
 }
 
@@ -98,3 +98,7 @@ kotlin {
 }
 
 compileKotlin.kotlinOptions.jvmTarget = "17"
+
+fabricApi {
+    configureDataGeneration()
+}

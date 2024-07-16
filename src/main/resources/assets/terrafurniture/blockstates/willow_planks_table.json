@@ -1,37 +1,37 @@
 {
   "variants": {
     "legs=true,leg_positions=north": {
-      "model": "terrafurniture:block/tables/basic/planks/compat/willow/table_north"
+      "model": "terrafurniture:block/tables/basic/planks/willow/table_north"
     },
     "legs=true,leg_positions=south": {
-      "model": "terrafurniture:block/tables/basic/planks/compat/willow/table_south"
+      "model": "terrafurniture:block/tables/basic/planks/willow/table_south"
     },
     "legs=true,leg_positions=east": {
-      "model": "terrafurniture:block/tables/basic/planks/compat/willow/table_east"
+      "model": "terrafurniture:block/tables/basic/planks/willow/table_east"
     },
     "legs=true,leg_positions=west": {
-      "model": "terrafurniture:block/tables/basic/planks/compat/willow/table_west"
+      "model": "terrafurniture:block/tables/basic/planks/willow/table_west"
     },
     "legs=true,leg_positions=north_east": {
-      "model": "terrafurniture:block/tables/basic/planks/compat/willow/table_north_east"
+      "model": "terrafurniture:block/tables/basic/planks/willow/table_north_east"
     },
     "legs=true,leg_positions=north_west": {
-      "model": "terrafurniture:block/tables/basic/planks/compat/willow/table_north_west"
+      "model": "terrafurniture:block/tables/basic/planks/willow/table_north_west"
     },
     "legs=true,leg_positions=south_east": {
-      "model": "terrafurniture:block/tables/basic/planks/compat/willow/table_south_east"
+      "model": "terrafurniture:block/tables/basic/planks/willow/table_south_east"
     },
     "legs=true,leg_positions=south_west": {
-      "model": "terrafurniture:block/tables/basic/planks/compat/willow/table_south_west"
+      "model": "terrafurniture:block/tables/basic/planks/willow/table_south_west"
     },
     "legs=true,leg_positions=all": {
-      "model": "terrafurniture:block/tables/basic/planks/compat/willow/table"
+      "model": "terrafurniture:block/tables/basic/planks/willow/table"
     },
     "legs=false": {
-      "model": "terrafurniture:block/tables/basic/planks/compat/willow/table_none"
+      "model": "terrafurniture:block/tables/basic/planks/willow/table_none"
     },
     "leg_positions=none,legs=true": {
-      "model": "terrafurniture:block/tables/basic/planks/compat/willow/table_none"
+      "model": "terrafurniture:block/tables/basic/planks/willow/table_none"
     }
   }
 }

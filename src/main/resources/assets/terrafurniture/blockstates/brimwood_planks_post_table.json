@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "terrafurniture:block/tables/post/planks/compat/brimwood"
+      "model": "terrafurniture:block/tables/post/planks/brimwood"
     }
   }
 }

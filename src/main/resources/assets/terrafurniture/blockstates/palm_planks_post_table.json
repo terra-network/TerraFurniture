@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "terrafurniture:block/tables/post/planks/compat/palm"
+      "model": "terrafurniture:block/tables/post/planks/palm"
     }
   }
 }

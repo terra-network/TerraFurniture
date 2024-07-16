@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "terrafurniture:block/tables/post/stripped_log/compat/cypress"
+      "model": "terrafurniture:block/tables/post/stripped_log/cypress"
     }
   }
 }
