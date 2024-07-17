@@ -1,8 +1,0 @@
-{
-  "parent": "terrafurniture:block/tables/basic/table",
-  "textures": {
-    "0": "minecraft:block/crimson_stem",
-    "1": "minecraft:block/crimson_stem",
-    "particle": "minecraft:block/crimson_stem"
-  }
-}

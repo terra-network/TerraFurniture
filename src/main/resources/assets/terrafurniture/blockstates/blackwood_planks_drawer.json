@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "terrafurniture:block/drawers/basic/planks/blackwood",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "terrafurniture:block/drawers/basic/planks/blackwood"
+    },
+    "facing=east": {
+      "model": "terrafurniture:block/drawers/basic/planks/blackwood",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "terrafurniture:block/drawers/basic/planks/blackwood",
+      "y": 90
+    }
+  }
+}

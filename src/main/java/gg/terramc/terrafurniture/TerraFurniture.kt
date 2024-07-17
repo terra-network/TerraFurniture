@@ -1,5 +1,6 @@
 package gg.terramc.terrafurniture
 
+import gg.terramc.terrafurniture.block.ModBlockEntities
 import gg.terramc.terrafurniture.block.ModBlocks
 import gg.terramc.terrafurniture.block.compat.CompatBlocks
 import gg.terramc.terrafurniture.item.ModItems
@@ -21,6 +22,7 @@ class TerraFurniture : ModInitializer {
         ModItemGroups
         ModItems
         ModBlocks
+        ModBlockEntities
 
         if (FabricLoader.getInstance().isModLoaded("regions_unexplored")) {
             CompatBlocks.registerRegionsUnexploredBlocks()

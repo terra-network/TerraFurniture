@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##/",
+    "# /",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:dead_log"
+    },
+    "/": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:dead_log_drawer",
+    "count": 1
+  },
+  "group": "log_drawer"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "terrafurniture:block/drawers/basic/log/palm",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "terrafurniture:block/drawers/basic/log/palm"
+    },
+    "facing=east": {
+      "model": "terrafurniture:block/drawers/basic/log/palm",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "terrafurniture:block/drawers/basic/log/palm",
+      "y": 90
+    }
+  }
+}

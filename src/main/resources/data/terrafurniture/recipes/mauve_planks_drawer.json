@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##/",
+    "# /",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:mauve_planks"
+    },
+    "/": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:mauve_planks_drawer",
+    "count": 1
+  },
+  "group": "planks_drawer"
+}

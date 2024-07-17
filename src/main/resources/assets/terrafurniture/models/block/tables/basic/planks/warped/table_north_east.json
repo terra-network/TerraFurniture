@@ -1,8 +1,0 @@
-{
-  "parent": "terrafurniture:block/tables/basic/table_north_east",
-  "textures": {
-    "0": "minecraft:block/warped_planks",
-    "1": "minecraft:block/stripped_warped_stem",
-    "particle": "minecraft:block/warped_planks"
-  }
-}

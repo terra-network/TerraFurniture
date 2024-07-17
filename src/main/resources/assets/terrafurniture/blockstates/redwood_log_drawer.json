@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "terrafurniture:block/drawers/basic/log/redwood",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "terrafurniture:block/drawers/basic/log/redwood"
+    },
+    "facing=east": {
+      "model": "terrafurniture:block/drawers/basic/log/redwood",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "terrafurniture:block/drawers/basic/log/redwood",
+      "y": 90
+    }
+  }
+}

@@ -11,6 +11,9 @@ class CompatBlocks {
             LogPostTable.registerRegionsUnexploredBlocks()
             PlanksPostTable.registerRegionsUnexploredBlocks()
             StrippedLogPostTable.registerRegionsUnexploredBlocks()
+            LogBasicDrawer.registerRegionsUnexploredBlocks()
+            StrippedLogBasicDrawer.registerRegionsUnexploredBlocks()
+            PlanksBasicDrawer.registerRegionsUnexploredBlocks()
         }
     }
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##/",
+    "# /",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:stripped_green_bioshroom_stem"
+    },
+    "/": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:stripped_green_bioshroom_stem_drawer",
+    "count": 1
+  },
+  "group": "stripped_log_drawer"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "terrafurniture:block/drawers/basic/planks/cobalt",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "terrafurniture:block/drawers/basic/planks/cobalt"
+    },
+    "facing=east": {
+      "model": "terrafurniture:block/drawers/basic/planks/cobalt",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "terrafurniture:block/drawers/basic/planks/cobalt",
+      "y": 90
+    }
+  }
+}

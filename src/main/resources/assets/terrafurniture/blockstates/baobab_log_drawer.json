@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "terrafurniture:block/drawers/basic/log/baobab",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "terrafurniture:block/drawers/basic/log/baobab"
+    },
+    "facing=east": {
+      "model": "terrafurniture:block/drawers/basic/log/baobab",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "terrafurniture:block/drawers/basic/log/baobab",
+      "y": 90
+    }
+  }
+}

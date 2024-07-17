@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "terrafurniture:block/drawers/basic/log/alpha",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "terrafurniture:block/drawers/basic/log/alpha"
+    },
+    "facing=east": {
+      "model": "terrafurniture:block/drawers/basic/log/alpha",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "terrafurniture:block/drawers/basic/log/alpha",
+      "y": 90
+    }
+  }
+}

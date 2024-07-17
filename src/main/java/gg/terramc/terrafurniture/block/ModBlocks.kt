@@ -23,6 +23,10 @@ class ModBlocks {
         val PLANKS_POST_TABLE = PlanksPostTable
         val STRIPPED_LOG_POST_TABLE = StrippedLogPostTable
 
+        val LOG_DRAWERS = LogBasicDrawer
+        val STRIPPED_LOG_DRAWERS = StrippedLogBasicDrawer
+        val PLANKS_DRAWERS = PlanksBasicDrawer
+
         fun registerBlock(name: String, block: Block, group: RegistryKey<ItemGroup>): Block {
             ModItems.registerItem(name, BlockItem(block, FabricItemSettings()), group)
             return Registry.register(Registries.BLOCK, Identifier(TerraFurniture.MOD_ID, name), block)

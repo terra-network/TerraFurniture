@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "terrafurniture:block/drawers/basic/stripped_log/maple",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "terrafurniture:block/drawers/basic/stripped_log/maple"
+    },
+    "facing=east": {
+      "model": "terrafurniture:block/drawers/basic/stripped_log/maple",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "terrafurniture:block/drawers/basic/stripped_log/maple",
+      "y": 90
+    }
+  }
+}

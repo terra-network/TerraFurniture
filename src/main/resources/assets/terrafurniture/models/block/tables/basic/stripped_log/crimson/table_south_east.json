@@ -1,8 +1,0 @@
-{
-  "parent": "terrafurniture:block/tables/basic/table_south_east",
-  "textures": {
-    "0": "minecraft:block/stripped_crimson_stem",
-    "1": "minecraft:block/stripped_crimson_stem",
-    "particle": "minecraft:block/stripped_crimson_stem"
-  }
-}

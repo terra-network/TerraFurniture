@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "terrafurniture:block/drawers/basic/planks/brimwood",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "terrafurniture:block/drawers/basic/planks/brimwood"
+    },
+    "facing=east": {
+      "model": "terrafurniture:block/drawers/basic/planks/brimwood",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "terrafurniture:block/drawers/basic/planks/brimwood",
+      "y": 90
+    }
+  }
+}

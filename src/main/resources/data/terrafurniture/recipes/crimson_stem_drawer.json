@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##/",
+    "# /",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:crimson_stem"
+    },
+    "/": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:crimson_stem_drawer",
+    "count": 1
+  },
+  "group": "log_drawer"
+}

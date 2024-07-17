@@ -1,8 +1,0 @@
-{
-  "parent": "terrafurniture:block/tables/basic/table_none",
-  "textures": {
-    "0": "minecraft:block/warped_stem",
-    "1": "minecraft:block/warped_stem",
-    "particle": "minecraft:block/warped_stem"
-  }
-}

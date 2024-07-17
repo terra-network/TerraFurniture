@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "terrafurniture:block/drawers/basic/planks/pine",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "terrafurniture:block/drawers/basic/planks/pine"
+    },
+    "facing=east": {
+      "model": "terrafurniture:block/drawers/basic/planks/pine",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "terrafurniture:block/drawers/basic/planks/pine",
+      "y": 90
+    }
+  }
+}
