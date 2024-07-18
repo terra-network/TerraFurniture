@@ -142,6 +142,7 @@ class DrawersBlock(settings: Settings) : BlockWithEntity(settings) {
         context: ShapeContext
     ): VoxelShape {
         val i = state.get(FACING)
+        
         return when (i) {
             Direction.NORTH -> SHAPE
             Direction.SOUTH -> SHAPE_SOUTH

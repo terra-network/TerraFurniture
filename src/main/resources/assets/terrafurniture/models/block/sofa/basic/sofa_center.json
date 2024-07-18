@@ -1,0 +1,107 @@
+{
+	"parent": "terrafurniture:blocks/sofa/basic/sofa",
+	"credit": "Made with Blockbench",
+	"elements": [
+		{
+			"name": "Base",
+			"from": [0, 2, 0],
+			"to": [16, 7, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 5], "texture": "#0"},
+				"east": {"uv": [0, 0, 13, 5], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 5], "texture": "#0"},
+				"west": {"uv": [0, 0, 13, 5], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 13], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Back",
+			"from": [0, 2, 13],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 14], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 14], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 14], "texture": "#0"},
+				"west": {"uv": [0, 0, 3, 14], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "NE_LEG",
+			"from": [13, 0, 1],
+			"to": [15, 2, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "NW_LEG",
+			"from": [1, 0, 1],
+			"to": [3, 2, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "SW_LEG",
+			"from": [1, 0, 13],
+			"to": [3, 2, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "SE_LEG",
+			"from": [13, 0, 13],
+			"to": [15, 2, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Voxel Shapes",
+			"origin": [13, 0, 13],
+			"color": 0,
+			"children": [
+				0,
+				1,
+				{
+					"name": "Legs",
+					"origin": [13, 0, 13],
+					"color": 0,
+					"children": [2, 3, 4, 5]
+				}
+			]
+		}
+	]
+}

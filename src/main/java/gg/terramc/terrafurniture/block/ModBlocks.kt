@@ -27,6 +27,8 @@ class ModBlocks {
         val STRIPPED_LOG_DRAWERS = StrippedLogBasicDrawer
         val PLANKS_DRAWERS = PlanksBasicDrawer
 
+        val WOOL_SOFA = WoolBasicSofa
+
         fun registerBlock(name: String, block: Block, group: RegistryKey<ItemGroup>): Block {
             ModItems.registerItem(name, BlockItem(block, FabricItemSettings()), group)
             return Registry.register(Registries.BLOCK, Identifier(TerraFurniture.MOD_ID, name), block)

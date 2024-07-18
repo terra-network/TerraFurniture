@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "/ /"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "terrafurniture:light_blue_sofa",
+    "count": 1
+  },
+  "group": "wool_sofa"
+}

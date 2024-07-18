@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=north,left=false,right=true,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_arm_left",
+      "uvlock": true,
+      "y": 0
+    },
+    "facing=north,left=true,right=false,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_arm_right",
+      "uvlock": true,
+      "y": 0
+    },
+    "facing=north,left=true,right=true,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_center",
+      "uvlock": true,
+      "y": 0
+    },
+    "facing=north,front=left": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_corner_left",
+      "uvlock": true,
+      "y": 0
+    },
+    "facing=north,front=right": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_corner_right",
+      "uvlock": true,
+      "y": 0
+    },
+    "facing=north,left=false,right=false,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa",
+      "uvlock": true,
+      "y": 0
+    },
+    "facing=east,left=false,right=true,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_arm_left",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,left=true,right=false,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_arm_right",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,left=true,right=true,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_center",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,front=left": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_corner_left",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,front=right": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_corner_right",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,left=false,right=false,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,left=false,right=true,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_arm_left",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,left=true,right=false,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_arm_right",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,left=true,right=true,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_center",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,front=left": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_corner_left",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,front=right": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_corner_right",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,left=false,right=false,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,left=false,right=true,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_arm_left",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,left=true,right=false,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_arm_right",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,left=true,right=true,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_center",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,front=left": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_corner_left",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,front=right": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa_corner_right",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,left=false,right=false,front=none": {
+      "model": "terrafurniture:block/sofa/basic/wool/lime/sofa",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}
