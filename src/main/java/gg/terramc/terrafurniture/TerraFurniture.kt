@@ -3,7 +3,9 @@ package gg.terramc.terrafurniture
 import gg.terramc.terrafurniture.block.ModBlockEntities
 import gg.terramc.terrafurniture.block.ModBlocks
 import gg.terramc.terrafurniture.block.compat.CompatBlocks
+import gg.terramc.terrafurniture.entity.ModEntities
 import gg.terramc.terrafurniture.item.ModItems
+import gg.terramc.terrafurniture.util.ModCallbackRegistry
 import gg.terramc.terrafurniture.util.ModItemGroups
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.loader.api.FabricLoader
@@ -23,6 +25,9 @@ class TerraFurniture : ModInitializer {
         ModItems
         ModBlocks
         ModBlockEntities
+        ModEntities
+
+        ModCallbackRegistry.handleSitting()
 
         if (FabricLoader.getInstance().isModLoaded("regions_unexplored")) {
             CompatBlocks.registerRegionsUnexploredBlocks()

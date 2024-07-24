@@ -18,7 +18,7 @@ import net.minecraft.world.BlockView
 import net.minecraft.world.WorldAccess
 import java.util.stream.Stream
 
-class SofaBlock(settings: Settings?) : Block(settings) {
+class SofaBlock(settings: Settings) : SeatBlock(settings) {
     companion object {
         val FACING = Properties.HORIZONTAL_FACING
         val CONNECTED_LEFT = BooleanProperty.of("left")
