@@ -325,5 +325,8 @@
   "block.terrafurniture.brown_sofa": "Brown Sofa",
   "block.terrafurniture.green_sofa": "Green Sofa",
   "block.terrafurniture.red_sofa": "Red Sofa",
-  "block.terrafurniture.black_sofa": "Black Sofa"
+  "block.terrafurniture.black_sofa": "Black Sofa",
+  "dirt_slab": "Dirt Slab",
+  "coarse_dirt_slab": "Coarse Dirt Slab",
+  "grass_slab": "Grass Slab"
 }

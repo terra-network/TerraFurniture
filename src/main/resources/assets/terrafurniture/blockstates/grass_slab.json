@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "terrafurniture:block/slab/grass"
+    },
+    "type=double": {
+      "model": "minecraft:block/grass_block"
+    },
+    "type=top": {
+      "model": "terrafurniture:block/slab/grass_top"
+    }
+  }
+}

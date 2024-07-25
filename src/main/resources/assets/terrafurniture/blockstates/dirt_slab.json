@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "terrafurniture:block/slab/dirt"
+    },
+    "type=double": {
+      "model": "minecraft:block/dirt"
+    },
+    "type=top": {
+      "model": "terrafurniture:block/slab/dirt_top"
+    }
+  }
+}
